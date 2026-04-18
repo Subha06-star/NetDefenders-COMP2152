@@ -58,18 +58,19 @@ Ports such as Telnet (23), FTP (21), or Redis (6379) may be open on the target s
 
 2. The script attempted connections to ports: 21, 22, 23, 80, 443, and 6379.
 
-3. The scan result showed that only port 80 (HTTP) is open, while all other tested ports are closed.
+3. The scan result showed that ports 80 (HTTP) and 443 (HTTPS) are open, while the others are closed.
 
-4. Since port 80 uses HTTP, communication is not encrypted and can be intercepted by attackers.
+4. Port 80 allows unencrypted communication, which can expose data to interception, even though HTTPS is available on port 443.
 
 Output:
-Port 21 is closed
-Port 22 is closed
-Port 23 is closed
-Port 80 is OPEN
+[+] Port 21 is closed
+[+] Port 22 is closed
+[+] Port 23 is closed
+[!] Port 80 is OPEN
     → HTTP is insecure (no encryption)
-Port 443 is closed
-Port 6379 is closed
+[!] Port 443 is OPEN
+    → HTTPS is secure but HTTP should be redirected
+[+] Port 6379 is closed
 
 ## Vulnerability Report (Wasifa Hossain)
 
