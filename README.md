@@ -20,7 +20,7 @@ Each team member records a short video (max 3 minutes) explaining their vulnerab
 
 - Member 1: https://youtube.com/watch?v=_______
 - Member 2: https://youtube.com/watch?v=_______
-- Member 3: https://youtube.com/watch?v=_______
+- Wasifa Hossain: https://youtu.be/u3zEudxcr-4
 
 ## Vulnerability Report (Sanzida Islam)
 
