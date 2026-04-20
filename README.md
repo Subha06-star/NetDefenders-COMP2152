@@ -16,7 +16,7 @@ Wasifa Hossain - 101594842 (https://github.com/wasifahs/NetDefenders-COMP2152)
 
 ## Videos
 
-Each team member records a short video (max 3 minutes) explaining their vulnerability. Add your YouTube links below:
+Each team member explaining vulnerability YouTube links below:
 
 - Sanzida Islam: https://youtu.be/mKPbMdaAedo
 - Rezarta Marku: https://youtu.be/RtyVTcWvO6k
